@@ -1,0 +1,21 @@
+{
+    "name": "edgardo/app-salon_php_mvc_js_sass",
+    "description": "php 8, sass, mvc, mysql, gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes" 
+        }
+    },
+    "authors": [
+        {
+            "name": "Edgardo Rodriguez"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
